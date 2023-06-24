@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Integrador Grupo 11</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header id="arriba">
+        <a href="index.html"> <img class="logo" src="img/logo progg.png" alt="Logo"></a>
+        <input class="buscador" type="text" name="cod" id="buscador" list="info" placeholder="  Inicia una Busqueda">
+        <img class="carrito" src="img/carrito.png" alt="carrito">
+        <p></p>
+        
+     
+            <i class="fa-solid fa-bars" style="color: #000000;"></i>
+        </label>
+        
+    </header>
+
+    <nav class="menu">
+
+        <ul>  
+            <li class="boton"><a href="calendario.html"><i class="fi fi-rr-calendar-days"></i> Calendario</a></li>
+            <li class="boton"><a href="GifCard.html"><i class="fi fi-rr-receipt"></i> GifCard</a></li>
+            <li class="boton"><a href="inscripcionCurso.html"><i class="fi fi-sr-attribution-pencil"></i> Inscripcion al
+                    Curso</a></li>
+            <li class="boton"><a href="contacto.html"><i class="fi fi-rr-phone-call"></i> Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="inscrpcionjava">
+            <h1>Curso JAVA</1>
+                <h2>Inscripcion</h2>
+                <article class="persona">
+                    
+                <div class="contenedordeinput">
+                <form class="formularioinscripcion" id = "form" action="#" method="get">
+
+                <input type="text"  id="Nombre"  name="Nombre"  placeholder="Ingrese su nombre y apellido" >
+
+                 <input type="tel"  id="dni"  name="dni"  placeholder="Ingrese su dni ">
+
+                <input type="email" id="correo"  name="correo"   placeholder="Ingrese su email" >
+
+                 <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su numero de telefono">
+
+                 <input class="importe" type="importe" id="importe" name="importe" value = "usd 20"  placeholder="USD 20">
+
+                 <input class="eliminar" type="reset" id=eliminar value="Eliminar">
+                   </div>
+                
+        
+                <div>
+                    <div id ="mensaje">
+                      </div>
+
+                    <div class="valorinscribirse">
+                        <h4>20</h4>
+                        <button id="agregar">AGREGAR</button>
+                      
+                         <input  class="inscribiseBoton" type="submit" value="INSCRIBIRSE">
+
+                         <article class="verPopup popup"> 
+                            <h2>Se inscriben las siguientes personas</h2>
+                            <a href="index.html" id="aceptar">Aceptar</a>
+                        </article>
+                    </div>
+                </article>
+        </section>
+        <a class="irArriba" href="#arriba">Inicio</a>
+        <script src="js/inscripcion.js"></script>
+    </main>
+ 
+</body>
+    <footer class="footerContenedor">
+        <div class="persona">
+            <h6>Datos del Grupo</h6>
+            <ul>
+                
+                <li >
+                    
+                   <p>  <i class="fi fi-bs-user"></i> Quiroga Ayelen</p>
+                    <p>DNI : 35979243</p>
+                </li>
+            
+            <li>
+                <p> <i class="fi fi-bs-user"></i> Anichini Agustin</p>
+                <p> DNI : 43598590</p>
+            </li>
+        </ul>
+        </div>
+
+        <div class ="menuinferior">
+            <h6>Menu Inferior</h6>
+            
+            <ul>
+               
+                <li class="boton"><a href="index.html"><strong>HOME</strong></a></li>
+                <li class="boton"><a href="detalleCurso.html">Detalle del Curso</a></li>
+                <li class="boton"><a href="calendario.html">Calendario</a></li>
+                <li class="boton"><a href="GifCard.html">GifCard</a></li>
+                <li class="boton"><a href="inscripcionCurso.html">Inscripcion al Curso</a></li>
+                <li class="boton"><a href="contacto.html">Contacto</a></li>
+            </ul>
+            
+        </div>
+
+       <div class ="redes">
+            <h6>Redes Sociales</h6>
+            
+                <ul>
+                    <li>
+                        <i class="fi fi-rs-paper-plane"></i>
+                        <i class="fi fi-brands-instagram"></i>
+                        <i class="fi fi-brands-facebook"></i>
+                        <i class="fi fi-brands-twitter"></i>
+                       
+                    </li>
+                </ul>
+            
+        </div>
+
+    </footer>
+</body>
+
+</html>

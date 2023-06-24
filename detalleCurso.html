@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Integrador Grupo 11</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="./img/logo progg.png">
+    <!--  <link rel="stylesheet" href="css/estilosDetalleCurso.css">-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
+
+</head>
+
+<body>
+    <header id="arriba">
+        <a href="index.html"> <img class="logo" src="img/logo progg.png" alt="Logo"></a>
+        <input class="buscador" type="text" name="cod" id="buscador" list="info" placeholder="  Inicia una Busqueda">
+        <img class="carrito" src="img/carrito.png" alt="carrito">
+        <p></p>
+        
+      
+            <i class="fa-solid fa-bars" style="color: #000000;"></i>
+        </label>
+        
+    </header>
+
+    <nav class="menu">
+
+        <ul>  
+            <li class="boton"><a href="calendario.html"><i class="fi fi-rr-calendar-days"></i> Calendario</a></li>
+            <li class="boton"><a href="GifCard.html"><i class="fi fi-rr-receipt"></i> GifCard</a></li>
+            <li class="boton"><a href="inscripcionCurso.html"><i class="fi fi-sr-attribution-pencil"></i> Inscripcion al
+                    Curso</a></li>
+            <li class="boton"><a href="contacto.html"><i class="fi fi-rr-phone-call"></i> Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="detalleCurso">
+            <img src="img/java-logo.png" height="500px" alt="Logo del curso de JAVA">
+
+            <article>
+                <h1>Curso de JAVA</h1>
+                <ul>
+                    <li>Valor: $45.000</li>
+                    <li>Tiempo necesario: 90Hs</li>
+                    <li>Descripcion de curso: </li>
+                    <li>Requisitos previos: Ninguno</li>
+                </ul>
+                <a class="botonInscripcion" href="inscripcionCurso.html">Inscribirse</a>
+
+                <h2>Contenidos por clase</h2>
+
+                <input type="button" value="Unidad 1" class="acordeon">
+                <ul class="items ver">
+                    <li>Introducción al mundo Java</li>
+                    <li>Sintaxis y variables</li>
+                    <li> Control de flujos</li>
+                    <li> Ciclos/iteraciones</li>
+                    <li>Funciones</li>
+                </ul>
+
+                <input type="button" value="Unidad 2" id="segundo" class="acordeon">
+                <ul class="items2 ver">
+                    <li>Uso de base de datos</li>
+                    <li>persistencias de datos via Java</li>
+                </ul>
+
+                <input type="button" value="Unidad 3" id="tercero" class="acordeon">
+                <ul class="items3 ver">
+                    <li>Spring boot project</li>
+                    <li>GIT</li>
+                    <li>Consumir un servicio REST</li>
+                    <li>Aspectos</li>
+                </ul>
+            </article>
+
+        </section>
+
+        <section class="Docente">
+            <h1>Docente</h1>
+            <article>
+                <img width="100px" height="100px" class="fotoProfe"
+                    src="https://c.superprof.com/i/a/13086112/6837796/600/20221024190554/profesor-programacion-web-con-experiencia-reconocida-academia-clases-particulares-primera-clase-gratis.jpg"
+                    alt="Imagen del profesor">
+                <div class="descripcionProfe">
+                    <h2>Gonzalo Ramirez</h2>
+                    <img width="100px" height="30px"
+                        src="https://www.pngplay.com/wp-content/uploads/6/Golden-5-Star-Rating-PNG.png" alt="">
+                    <p>Soy desarrollador de aplicaciones web y mobile (teléfonos celulares). Actualmente soy tutor de la
+                        carrera de programación front-end en la Universidad Tres de Febrero (UNTREF), mentor en Devplace
+                        MDQ (academia de Mar Del Plata) y tambien fuí mentor de programación en una reconocida academia
+                        de Tucumán llamada Rolling Code School, por lo que cuento con la experiencia necesaria para
+                        transmitir conocimientos de manera efectiva y enseñarte sobre las tecnologías más demandas en el
+                        mercado actual. Comparto mis conocimientos más allá de lo que a programación respecta, como por
+                        ejemplo workflow, metodología scrum, GIT y Github y demás cosas que necesites para conseguir un
+                        trabajo. Como profesor descubrí la enorme satisfacción y propocito al preparar a gente que pasó
+                        de no saber nada del mundo IT, a poder llamarlos hoy en día colegas, eso es algo que me llena de
+                        orgullo y satisfacción.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="slider">
+            <article class="autoplay">
+                <img src="./img/javaSlider.png" alt="">
+                <img src="./img/angularSlider.png" alt="">
+                <img src="./img/pythonSlider.jpg" alt="">
+                <img src="./img/nodeSlider.webp" alt="">
+                <img src="./img/reactJSSlider.webp" alt="">
+                <img src="./img/javaScriptSlider.png" alt="">
+            </article>
+        </section>
+
+        <a class="irArriba" href="#arriba">Inicio</a>
+    </main>
+    <footer class="footerContenedor">
+        <div class="persona">
+            <h6>Datos del Grupo</h6>
+            <ul>
+
+                <li>
+
+                    <p> <i class="fi fi-bs-user"></i> Quiroga Ayelen</p>
+                    <p>DNI : 35979243</p>
+                </li>
+
+                <li>
+                    <p> <i class="fi fi-bs-user"></i> Anichini Agustin</p>
+                    <p> DNI : 43598590</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="menuinferior">
+            <h6>Menu Inferior</h6>
+            <ul>
+                <li class="boton"><a href="index.html"><strong>HOME</strong></a></li>
+                <li class="boton"><a href="detalleCurso.html">Detalle del Curso</a></li>
+                <li class="boton"><a href="calendario.html">Calendario</a></li>
+                <li class="boton"><a href="GifCard.html">GifCard</a></li>
+                <li class="boton"><a href="inscripcionCurso.html">Inscripcion al Curso</a></li>
+                <li class="boton"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="redes">
+            <h6>Redes Sociales</h6>
+
+            <ul>
+                <li>
+                    <i class="fi fi-rs-paper-plane"></i>
+                    <i class="fi fi-brands-instagram"></i>
+                    <i class="fi fi-brands-facebook"></i>
+                    <i class="fi fi-brands-twitter"></i>
+
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/detalleCurso.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.autoplay').slick({
+            slidesToShow: 3,
+            dots: true,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+
+    </script>
+</body>
+
+</html>

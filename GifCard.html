@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Integrador Grupo 11</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header id="arriba">
+        <img class="logo" src="img/logo progg.png" alt="Logo">
+        <datalist id="info">
+            <option value="Cuso1">
+            <option value="Cuso2">
+            <option value="Cuso3">
+        </datalist>
+        <label for="cod"></label>
+        <input class="buscador" type="text" name="cod" id="cod" list="info" placeholder="  Inicia una Busqueda">
+        <img class="carrito" src="img/carrito.png" alt="carrito">
+        <p></p>
+
+    </header>
+
+
+
+    <nav class="menu">
+        <ul>
+            <li class="id"><a href="index.html"><strong>HOME</strong></a></li>
+            <li class="boton"><a href="detalleCurso.html"> <i class="fi fi-rr-comment-alt"></i> Detalle del Curso</a>
+            </li>
+            <li class="boton"><a href="calendario.html"><i class="fi fi-rr-calendar-days"></i> Calendario</a></li>
+            <li class="boton"><a href="GifCard.html"><i class="fi fi-rr-receipt"></i> GifCard</a></li>
+            <li class="boton"><a href="inscripcionCurso.html"><i class="fi fi-sr-attribution-pencil"></i> Inscripcion al
+                    Curso</a></li>
+            <li class="boton"><a href="contacto.html"><i class="fi fi-rr-phone-call"></i> Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="personalizar">
+            <article class="imagenGif">
+                <p>$0000.-</p>
+          
+                <h3>Vista previa de resultado </h3>
+            </article>
+
+            <article class="opciones">
+                <H2>Personalizacion de Giftcard</H2>
+
+                <label for="destinatario"></label>
+                <input class="destinatario" type="text" name="destinatario" id="destinatario"
+                    placeholder=" Nombre Destinatario">
+             
+                <h3>Color</h3>
+                <label for="color"></label>
+                <ul class="colores">
+                    <li>
+                        <p class="rojoFondo">r </p>
+                        <input type="radio" name="color" id="color" value="rojo">
+
+                    </li>
+                    <li>
+                        <p class="amarilloFondo">a </p>
+                        <input type="radio" name="color" id="color" value="amarillo">
+
+                    </li>
+                    <li>
+                        <p class="verdeFondo">v </p>
+                        <input type="radio" name="color" id="color" value="verde">
+                    </li>
+                    <li>
+                        <p class="violetaFondo"> v</p>
+                        <input type="radio" name="color" id="color" value="violeta">
+                    </li>
+                    <li>
+                        <p class="blancoFondo">n </p>
+                        <input type="radio" name="color" id="color" value="blanco">
+                    </li>
+
+                </ul>
+                <h3>Tamaño </h3>
+                <label for="tamanio"></label>
+                <ul class ="letras">
+                    
+                    <li>
+                        <p class="letra20">20px</p>
+                        <input type="radio" name="tamanio" id="tamanio">
+                        
+                    </li>
+
+                    <li>
+                        <p class="letra20">28px</p>
+                        <input type="radio" name="tamanio" id="tamanio">
+                    </li>
+
+                    <li>
+                        <p class="letra20">32px</p>
+                        <input type="radio" name="tamanio" id="tamanio">
+                    </li>
+
+                    <li>
+                        <p class="letra20">48px</p>
+                        <input type="radio" name="tamanio" id="tamanio">
+                    </li>
+
+                    <li>
+                        <p class="letra20">60px</p>
+                        <input type="radio" name="tamanio" id="tamanio">
+                    </li>
+                </ul>
+
+
+                <h3></h3>
+                <label for="monto">Monto $ </label>
+                <input type="text" name="monto" id="monto">
+
+                <h3>Ubicacion</h3>
+                <label for="ubicacion"></label>
+
+                <ul class="imagenubi">
+
+                    <li class="abajoDerecha">
+                        <img src="img/gfixi-giftcard.png" alt="git">
+                        <P class="PabajoIDerecha">$0</P>
+                        <input type="radio" name="ubicacion" id="ubicacion" value="1">
+                    </li>
+
+                    <li class="arribaIzquierda">
+                        <img src="img/gfixi-giftcard.png" alt="git">
+                        <P class="ParribaIzquierda">$0</P>
+                        <input type="radio" name="ubicacion" id="ubicacion"  value="2">
+                    </li>
+
+                    <li class="arribaDerecha">
+                        <img src="img/gfixi-giftcard.png" alt="git">
+                        <P class="ParribaDerecha">$0</P>
+                        <input type="radio" name="ubicacion" id="ubicacion"  value="3">
+                    </li>
+
+                </ul>
+                <h3>Fondo</h3>
+                <label for="fondo"></label>
+
+                <ul class="colorfondo">
+                    <li>
+                        <p class="negroFondo">r </p>
+                        
+                        <input type="radio" value="1" name="fondo"> 
+
+                    </li>
+
+                    <li>
+                        <p class="violetaFondo">a </p>
+                        <input type="radio" value="2" name="fondo"> 
+
+                    </li>
+
+                    <li>
+                        <p class="grisFondo">v </p>
+                        
+                        <input type="radio" value="3" name="fondo"> 
+                    </li>
+
+                    <li>
+                        <p class="azulFondo"> v</p>
+                       
+                        <input type="radio" value="4" name="fondo"> 
+                    </li>
+
+                    <li>
+                        <p class="rojoFondo">n </p>
+                       
+                        <input type="radio" value="5" name="fondo"> 
+                    </li>
+                    
+                </ul>
+
+
+                <a href="#"><strong>Confirmar</strong></a>
+            
+            </article>
+        </section>
+        <a class="irArriba" href="#arriba">Inicio</a>
+    </main>
+    <script src="js/gifcard.js"></script>
+    <footer class="footerContenedor">
+        <div class="persona">
+            <h6>Datos del Grupo</h6>
+            <ul>
+                
+                <li >
+                    
+                   <p>  <i class="fi fi-bs-user"></i> Quiroga Ayelen</p>
+                    <p>DNI : 35979243</p>
+                </li>
+            
+            <li>
+                <p> <i class="fi fi-bs-user"></i> Anichini Agustin</p>
+                <p> DNI : 43598590</p>
+            </li>
+        </ul>
+        </div>
+
+        <div class ="menuinferior">
+            <h6>Menu Inferior</h6>
+            
+            <ul>
+               
+                <li class="boton"><a href="index.html"><strong>HOME</strong></a></li>
+                <li class="boton"><a href="detalleCurso.html">Detalle del Curso</a></li>
+                <li class="boton"><a href="calendario.html">Calendario</a></li>
+                <li class="boton"><a href="GifCard.html">GifCard</a></li>
+                <li class="boton"><a href="inscripcionCurso.html">Inscripcion al Curso</a></li>
+                <li class="boton"><a href="contacto.html">Contacto</a></li>
+            </ul>
+            
+        </div>
+
+       <div class ="redes">
+            <h6>Redes Sociales</h6>
+            
+                <ul>
+                    <li>
+                        <i class="fi fi-rs-paper-plane"></i>
+                        <i class="fi fi-brands-instagram"></i>
+                        <i class="fi fi-brands-facebook"></i>
+                        <i class="fi fi-brands-twitter"></i>
+                       
+                    </li>
+                </ul>
+            
+        </div>
+
+    </footer>
+</body>
+
+</html>
+
+ 

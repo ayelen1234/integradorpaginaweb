@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Integrador Grupo 11</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header id="arriba">
+        <a href="index.html"> <img class="logo" src="img/logo progg.png" alt="Logo"></a>
+        <input class="buscador" type="text" name="cod" id="buscador" list="info" placeholder="  Inicia una Busqueda">
+        <img class="carrito" src="img/carrito.png" alt="carrito">
+        <p>1</p>
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="btnCheck">
+            <i class="fa-solid fa-bars" style="color: #000000;"></i>
+        </label>
+        
+    </header>
+
+    <nav class="menu">
+
+        <ul>  
+            <li class="boton"><a href="calendario.html"><i class="fi fi-rr-calendar-days"></i> Calendario</a></li>
+            <li class="boton"><a href="GifCard.html"><i class="fi fi-rr-receipt"></i> GifCard</a></li>
+            <li class="boton"><a href="inscripcionCurso.html"><i class="fi fi-sr-attribution-pencil"></i> Inscripcion al
+                    Curso</a></li>
+            <li class="boton"><a href="contacto.html"><i class="fi fi-rr-phone-call"></i> Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contacto">
+            <form class="formulario" id="form" action="#">
+                <h1>Contacto</h1>
+                <label for="Nombre y apellido"></label>
+                <input type="text" id="Nombre" name="Nombre" placeholder="Ingrese su nombre y apellido">
+
+                <label for="correo"></label>
+                <input type="email" id="correo" name="correo" placeholder="Ingrese su email">
+
+                <label for="telefono"></label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su numero de telefono">
+
+                <label for="consulta"></label>
+                <textarea name="consulta" id="consulta" cols="30" rows="10"
+                    placeholder="Dejanos tu consulta"></textarea>
+
+                <input class="formularioBoton resposive" type="button" value="contactar">
+
+                <div id="mensaje">
+                    <p id="contador"></p>
+                </div>
+
+                <article class="verPopup popup"> <!-- la clase popup tiene un estilo que no se muestra-->
+                    <h2>Consulta Enviada con exito!!</h2>
+                    <a href="index.html" id="aceptar">Aceptar</a>
+                </article>
+
+            </form>
+            <div class="contactoEmpresa">
+                <h1>Datos de contacto</h1>
+                <ul>
+                    <li> <strong>Numero:</strong> 11 38721497</li>
+                    <li> <strong>Email:</strong> empresa@gmail.com</li>
+                    <li> <a href="index.html" target="_blank"> <strong>sitio Web</strong> </a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="ubicacion">
+            <h1>Ubicación</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8335.297542578059!2d-58.38947185547255!3d-34.60245410663811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacc473596c3%3A0x568d6d5f7f1f535d!2sEducaci%C3%B3nIT!5e0!3m2!1ses-419!2sar!4v1684185154874!5m2!1ses-419!2sar"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <a class="irArriba" href="#arriba">Inicio</a>
+    </main>
+    <footer class="footerContenedor">
+        <div class="persona">
+            <h6>Datos del Grupo</h6>
+            <ul>
+
+                <li>
+
+                    <p> <i class="fi fi-bs-user"></i> Quiroga Ayelen</p>
+                    <p>DNI : 35979243</p>
+                </li>
+
+                <li>
+                    <p> <i class="fi fi-bs-user"></i> Anichini Agustin</p>
+                    <p> DNI : 43598590</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="menuinferior">
+            <h6>Menu Inferior</h6>
+
+            <ul>
+
+                <li class="boton"><a href="index.html"><strong>HOME</strong></a></li>
+                <li class="boton"><a href="detalleCurso.html">Detalle del Curso</a></li>
+                <li class="boton"><a href="calendario.html">Calendario</a></li>
+                <li class="boton"><a href="GifCard.html">GifCard</a></li>
+                <li class="boton"><a href="inscripcionCurso.html">Inscripcion al Curso</a></li>
+                <li class="boton"><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+        </div>
+
+        <div class="redes">
+            <h6>Redes Sociales</h6>
+
+            <ul>
+                <li>
+                    <i class="fi fi-rs-paper-plane"></i>
+                    <i class="fi fi-brands-instagram"></i>
+                    <i class="fi fi-brands-facebook"></i>
+                    <i class="fi fi-brands-twitter"></i>
+
+                </li>
+            </ul>
+
+        </div>
+
+    </footer>
+    <script src="js/contacto.js"></script>
+</body>
+
+</html>

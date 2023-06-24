@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Integrador Grupo 11</title>
+    <link rel="shortcut icon" href="./img/logo progg.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
+
+
+<body>
+    <header id="arriba">
+        <a href="index.html"> <img class="logo" src="img/logo progg.png" alt="Logo"></a>
+        <input class="buscador" type="text" name="cod" id="buscador" list="info" placeholder="  Inicia una Busqueda">
+        <img class="carrito" src="img/carrito.png" alt="carrito">
+        <p class="contadorcarrito"></p>
+        
+
+            <i class="fa-solid fa-bars" style="color: #000000;"></i>
+        </label>
+        
+    </header>
+
+    <nav class="menu">
+
+        <ul>  
+            <li class="boton"><a href="calendario.html"><i class="fi fi-rr-calendar-days"></i> Calendario</a></li>
+            <li class="boton"><a href="GifCard.html"><i class="fi fi-rr-receipt"></i> GifCard</a></li>
+            <li class="boton"><a href="inscripcionCurso.html"><i class="fi fi-sr-attribution-pencil"></i> Inscripcion al
+                    Curso</a></li>
+            <li class="boton"><a href="contacto.html"><i class="fi fi-rr-phone-call"></i> Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="resultado">
+
+        </div>
+        <!--  <h1 class ="titulo">Cursos Online</h1>-->
+        <section id="slider">
+            <article class="autoplay">
+                <img src="./img/javaSlider.png" alt="">
+                <img src="./img/angularSlider.png" alt="">
+                <img src="./img/pythonSlider.jpg" alt="">
+                <img src="./img/nodeSlider.webp" alt="">
+                <img src="./img/reactJSSlider.webp" alt="">
+                <img src="./img/javaScriptSlider.png" alt="">
+            </article>
+        </section>
+
+        <section class="pasos">
+            <div>
+                <h2>PASO 1</h2>
+                <p><strong>Eleji el curso que mas se adapte a tus necesidades.</strong></p>
+
+            </div>
+            <div>
+                <h2>PASO 2</h2>
+                <p><strong> Completa tus datos en el formulario de inscripcion.</strong></p>
+
+            </div>
+            <div>
+                <h2>PASO 3</h2>
+                <p><strong>Abona el curso de la forma que elijas. Listo!</strong></p>
+            </div>
+        </section>
+
+        <h1 class="destacados">Cursos destacados</h1>
+
+        <section class="cursos">
+            <div id="java">
+                <img src="img/java-logo.png" alt="Logo del curso de JAVA">
+                <h2>Curso de JAVA</h2>
+                <ul>
+                    <li><a href="detalleCurso.html">Ver detalle</a></li>
+                    <h3> 90 HS </h3>
+                    <input type="button" value="Comprar" id="hola" class="Comprar">
+                    <h5>$90.000</h5>
+                </ul>
+            </div>
+            <div id="Angular">
+                <img src="img/icone-angulaire-jaune.png" alt="Logo del curso de Angular">
+                <h2>Curso Angular</h2>
+                <ul>
+                    <li><a href="detalleCurso.html">Ver detalle</a></li>
+                    <h3>42 HS</h3>
+                    <input type="button" value="Comprar" id="hola" class="Comprar">
+                    <h5>$90.000</h5>
+                </ul>
+            </div>
+            <div id="Python">
+                <img src="img/logo phy.png" height="150px" alt="Logo del curso de Python">
+                <h2>Curso Python</h2>
+                <ul>
+                    <li><a href="detalleCurso.html">Ver detalle</a></li>
+                    <h3>35 HS</h3>
+                    <input type="button" value="Comprar" id="hola" class="Comprar">
+                    <h5>$90.000</h5>
+                </ul>
+            </div>
+            <div>
+                <img src="img/javascript-logo.png" alt="Logo del curso de Javascrpit">
+                <h2>Curso de Javascrpit</h2>
+                <ul>
+                    <li><a href="detalleCurso.html">Ver detalle</a></li>
+                    <h3>27 HS</h3>
+                    <input type="button" value="Comprar" id="hola" class="Comprar">
+                    <h5>$90.000</h5>
+                </ul>
+            </div>
+            <div>
+                <img src="img/react.png" height="150px" alt="Logo del curso de Reacty Js">
+                <h2>Curso de React Js</h2>
+                <ul>
+                    <li><a href="detalleCurso.html">Ver detalle</a></li>
+                    <h3>35 hs</h3>
+                    <input type="button" value="Comprar" id="hola" class="Comprar">
+                    <h5>$90.000</h5>
+                </ul>
+            </div>
+            <div>
+                <img src="img/NODE JS LOGO.png" alt="Logo del curso de Node js">
+                <h2>Curso de Node js</h2>
+                <ul>
+                    <li><a href="detalleCurso.html">Ver detalle</a></li>
+                    <h3>29 HS </h3>
+                    <input type="button" value="Comprar" id="hola" class="Comprar">
+                    <h5>$90.000</h5>
+                </ul>
+            </div>
+        </section>
+        <h2 class=" medios">Medios de Pago</h2>
+        <section class="pagos">
+
+            <div>
+                <h3>Visa</h3>
+                <img src="img/visa logo.png" alt="visa">
+            </div>
+            <div>
+                <h3>Mastercard</h3>
+                <img src="img/mastercard-logo-1.png" alt="master">
+            </div>
+            <div>
+                <h3>Mercado Pago</h3>
+                <img src="img/mercadopago-nuevo-logo-12208FF614-seeklogo.com.png" alt="mercado">
+            </div>
+            <div>
+                <h3>Pago Facil </h3>
+                <img src="img/pago_facil_rapi_pago-medium-size.jpg" alt="pago">
+            </div>
+
+        </section>
+        <a class="irArriba" href="#arriba">Inicio</a>
+    </main>
+    <footer class="footerContenedor">
+        <div class="persona">
+            <h6>Datos del Grupo</h6>
+            <ul>
+
+                <li>
+
+                    <p> <i class="fi fi-bs-user"></i> Quiroga Ayelen</p>
+                    <p>DNI : 35979243</p>
+                </li>
+
+                <li>
+                    <p> <i class="fi fi-bs-user"></i> Anichini Agustin</p>
+                    <p> DNI : 43598590</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="menuinferior">
+            <h6>Menu Inferior</h6>
+
+            <ul>
+
+                <li class="boton"><a href="index.html"><strong>HOME</strong></a></li>
+                <li class="boton"><a href="detalleCurso.html">Detalle del Curso</a></li>
+                <li class="boton"><a href="calendario.html">Calendario</a></li>
+                <li class="boton"><a href="GifCard.html">GifCard</a></li>
+                <li class="boton"><a href="inscripcionCurso.html">Inscripcion al Curso</a></li>
+                <li class="boton"><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+        </div>
+
+        <div class="redes">
+            <h6>Redes Sociales</h6>
+
+            <ul>
+                <li>
+                    <i class="fi fi-rs-paper-plane"></i>
+                    <i class="fi fi-brands-instagram"></i>
+                    <i class="fi fi-brands-facebook"></i>
+                    <i class="fi fi-brands-twitter"></i>
+
+                </li>
+            </ul>
+
+        </div>
+
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/vinculoJS.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.autoplay').slick({
+            infinite: true,
+            dots: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+
+    </script>
+</body>
+
+</html>
