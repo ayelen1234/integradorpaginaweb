@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo progg.png">
     <title>Trabajo Integrador Grupo 11</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="./img/logo progg.png">
     <!--  <link rel="stylesheet" href="css/estilosDetalleCurso.css">-->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
 
@@ -19,24 +22,21 @@
         <a href="index.html"> <img class="logo" src="img/logo progg.png" alt="Logo"></a>
         <input class="buscador" type="text" name="cod" id="buscador" list="info" placeholder="  Inicia una Busqueda">
         <img class="carrito" src="img/carrito.png" alt="carrito">
-        <p></p>
-        
-      
-            <i class="fa-solid fa-bars" style="color: #000000;"></i>
-        </label>
-        
+        <p>1</p>
     </header>
 
-    <nav class="menu">
 
-        <ul>  
-            <li class="boton"><a href="calendario.html"><i class="fi fi-rr-calendar-days"></i> Calendario</a></li>
-            <li class="boton"><a href="GifCard.html"><i class="fi fi-rr-receipt"></i> GifCard</a></li>
+    <nav class="menu">
+        <ul class="hamburguesa">
             <li class="boton"><a href="inscripcionCurso.html"><i class="fi fi-sr-attribution-pencil"></i> Inscripcion al
                     Curso</a></li>
+            <li class="boton"><a href="GifCard.html"><i class="fi fi-rr-receipt"></i> GifCard</a></li>
+            <li class="boton"><a href="calendario.html"><i class="fi fi-rr-calendar-days"></i> Calendario</a></li>
             <li class="boton"><a href="contacto.html"><i class="fi fi-rr-phone-call"></i> Contacto</a></li>
         </ul>
     </nav>
+    <a class="desplegable"></i></a>
+
     <main>
         <section class="detalleCurso">
             <img src="img/java-logo.png" height="500px" alt="Logo del curso de JAVA">
@@ -90,7 +90,7 @@
                     <img width="100px" height="30px"
                         src="https://www.pngplay.com/wp-content/uploads/6/Golden-5-Star-Rating-PNG.png" alt="">
                     <p>Soy desarrollador de aplicaciones web y mobile (teléfonos celulares). Actualmente soy tutor de la
-                        carrera de programación front-end en la Universidad Tres de Febrero (UNTREF), mentor en Devplace
+                        carrera de programacin front-end en la Universidad Tres de Febrero (UNTREF), mentor en Devplace
                         MDQ (academia de Mar Del Plata) y tambien fuí mentor de programación en una reconocida academia
                         de Tucumán llamada Rolling Code School, por lo que cuento con la experiencia necesaria para
                         transmitir conocimientos de manera efectiva y enseñarte sobre las tecnologías más demandas en el
@@ -163,6 +163,7 @@
     </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/detalleCurso.js"></script>
+    <script src="js/home.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript">
         $('.autoplay').slick({

@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo Integrador Grupo 11</title>
+    <link rel="shortcut icon" href="./img/logo progg.png">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 
 <body>
@@ -15,24 +19,18 @@
         <input class="buscador" type="text" name="cod" id="buscador" list="info" placeholder="  Inicia una Busqueda">
         <img class="carrito" src="img/carrito.png" alt="carrito">
         <p>1</p>
-        
-        <input type="checkbox" id="check">
-        <label for="check" class="btnCheck">
-            <i class="fa-solid fa-bars" style="color: #000000;"></i>
-        </label>
-        
     </header>
 
     <nav class="menu">
-
-        <ul>  
-            <li class="boton"><a href="calendario.html"><i class="fi fi-rr-calendar-days"></i> Calendario</a></li>
-            <li class="boton"><a href="GifCard.html"><i class="fi fi-rr-receipt"></i> GifCard</a></li>
+        <ul class="hamburguesa">
             <li class="boton"><a href="inscripcionCurso.html"><i class="fi fi-sr-attribution-pencil"></i> Inscripcion al
                     Curso</a></li>
+            <li class="boton"><a href="GifCard.html"><i class="fi fi-rr-receipt"></i> GifCard</a></li>
+            <li class="boton"><a href="calendario.html"><i class="fi fi-rr-calendar-days"></i> Calendario</a></li>
             <li class="boton"><a href="contacto.html"><i class="fi fi-rr-phone-call"></i> Contacto</a></li>
         </ul>
     </nav>
+    <a class="desplegable"></i></a>
     <main>
         <section class="contacto">
             <form class="formulario" id="form" action="#">
@@ -130,6 +128,7 @@
 
     </footer>
     <script src="js/contacto.js"></script>
+    <script src="js/home.js"></script>
 </body>
 
 </html>

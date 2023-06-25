@@ -42,7 +42,6 @@ main {
 header {
     display: flex;
     justify-content: space-between;
-
 }
 
 header label {
@@ -108,6 +107,24 @@ header p {
     text-decoration: none;
     padding: 5px 10px;
 
+}
+
+.desplegable {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 0px;
+    background-image: url(../img/menu-hamburguesa.png);
+    background-size: cover;
+}
+
+.desplegable:hover {
+    background-color: #d8b944;
 }
 
 .boton {
@@ -304,6 +321,7 @@ header p {
     margin-bottom: 5%;
     color: white;
 }
+
 .irArriba {
     position: fixed;
     bottom: 1em;
@@ -313,7 +331,7 @@ header p {
     height: 40px;
     text-decoration: none;
     color: #000000;
-   margin-top: 1em;
+    margin-top: 1em;
     background-color: chartreuse;
     border-radius: 50px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -408,13 +426,12 @@ footer div {
 .menuinferior a:hover {
     color: #f10e92;
 }
-
+/*--------------------------------------------------------------------*/
 .detalleCurso {
     display: flex;
     justify-content: space-evenly;
     width: 60%;
     margin: auto;
-
 }
 
 .detalleCurso article {
@@ -681,9 +698,10 @@ footer div {
 .personalizar {
     display: flex;
     justify-content: space-between;
-  
+
 }
-.personalizar article{
+
+.personalizar article {
     width: calc(50%-2em);
 }
 
@@ -704,35 +722,38 @@ footer div {
 .imagenGif1 {
     position: relative;
     width: 500px;
-   display: flex;
+    display: flex;
     align-items: center;
     background-image: url(../img/gifcardnegra.webp);
-  background-size: contain;
-  background-repeat: no-repeat;
- border-radius: 15px;
- 
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+
 }
+
 .imagenGif2 {
     position: relative;
     width: 500px;
-   display: flex;
+    display: flex;
     align-items: center;
-  background-image: url(../img/gifcard3.pngaltmediatoken1c024701-0fb0-4f65-b8e7-b6468e946c27);
-  background-size: contain;
-  background-repeat: no-repeat;
+    background-image: url(../img/gifcard3.pngaltmediatoken1c024701-0fb0-4f65-b8e7-b6468e946c27);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 .imagenGif3 {
     position: relative;
     width: 500px;
-   display: flex;
+    display: flex;
     align-items: center;
-  background-image: url(../img/gifcard4.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-   
+    background-image: url(../img/gifcard4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
+
 .imagenGif4 {
-    
+
     position: relative;
     width: 500px;
     background-image: url(../img/gfixi-giftcard.png);
@@ -741,11 +762,12 @@ footer div {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .imagenGif5 {
-    
+
     position: relative;
     width: 500px;
-   
+
     background-image: url(../img/gitroko.webp);
     display: flex;
     align-items: center;
@@ -755,7 +777,7 @@ footer div {
 
 .imagenGif p {
     position: absolute;
-   
+
     right: 20px;
     top: 50px;
     background-color: #000000;
@@ -763,6 +785,7 @@ footer div {
     border-radius: 10px;
     padding: 3px;
 }
+
 .imagenGifAbajo p {
     position: absolute;
     right: 20px;
@@ -775,7 +798,7 @@ footer div {
 
 .imagenGifDerecha p {
     position: absolute;
-   
+
     left: 20px;
     top: 50px;
     background-color: #000000;
@@ -783,9 +806,10 @@ footer div {
     border-radius: 10px;
     padding: 3px;
 }
+
 .imagenGif h3 {
     position: absolute;
-    top:200px;
+    top: 200px;
     right: 15px;
     left: 1px;
     text-align: center;
@@ -810,9 +834,11 @@ footer div {
 .opciones h3 {
     font-family: 'Roboto Condensed', sans-serif;
 }
-.opciones a{
+
+.opciones a {
     margin-top: 5px;
 }
+
 .personalizar ul li {
     display: inline-block;
 }
@@ -833,11 +859,11 @@ footer div {
     margin-bottom: 2%;
 }
 
-.letras{
+.letras {
     width: 200px;
     height: 50px;
     display: flex;
-   
+
     justify-content: space-around;
 }
 
@@ -846,7 +872,7 @@ footer div {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    
+
 }
 
 .colorfondo {
@@ -854,16 +880,17 @@ footer div {
     display: flex;
     justify-content: space-around;
 }
-.rojoFondo{
+
+.rojoFondo {
 
     background-color: #fc0c0c;
     color: #fc0c0c;
-  
+
 
 }
 
 .azulFondo {
-   
+
     background-color: deepskyblue;
     color: deepskyblue;
 
@@ -873,14 +900,17 @@ footer div {
     background-color: gold;
     color: gold;
 }
+
 .verdeFondo {
     background-color: darkgreen;
     color: darkgreen;
 }
-.blancoFondo{
+
+.blancoFondo {
     background-color: #ffffff;
     color: white;
 }
+
 .violetaFondo {
     background-color: #f10e92;
     color: #f10e92;
@@ -892,71 +922,71 @@ footer div {
 }
 
 .grisFondo {
-   background-color: cadetblue;
-   color: cadetblue;
+    background-color: cadetblue;
+    color: cadetblue;
 }
 
-.blanco{
+.blanco {
     color: #ffffff;
 }
 
 .rojo {
 
-    
+
     color: #fc0c0c;
 
 }
 
 .amarillo {
-   
+
     color: #f1e20e;
 
 }
 
 
 .violeta {
-    
+
     color: #f10e92;
 }
 
 .negro {
- 
+
     color: #0c0c0c;
 }
 
 .verde {
-   
+
     color: #20f319;
 }
 
 
 .letra20 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 1em;
+    font-size: 1em;
 }
 
-.tamanio1{
+.tamanio1 {
 
     font-size: 2em;
 }
 
 
-.tamanio2{
-   
+.tamanio2 {
+
     font-size: 3em;
 }
 
-.tamanio3{
-    
-    font-size: 4em;
-}   
+.tamanio3 {
 
-.tamanio4{
-   
+    font-size: 4em;
+}
+
+.tamanio4 {
+
     font-size: 5em;
 }
 
-.tamanio5{
+.tamanio5 {
     font-size: 6em;
 }
 
@@ -1043,7 +1073,7 @@ footer div {
 
     display: flex;
     text-align: center;
-   
+
 
 }
 
@@ -1060,7 +1090,7 @@ footer div {
     margin-top: 1em;
     left: 1em;
     margin-bottom: 2.5em;
-     text-align: center;
+    text-align: center;
     border-style: initial;
     height: 4em;
     width: 16em;
@@ -1068,11 +1098,12 @@ footer div {
 
 
 
-.eliminar{
+.eliminar {
     background-color: #fc0c0c;
-   
+
 }
-.importe{
+
+.importe {
     text-align: center;
 }
 
@@ -1106,9 +1137,9 @@ footer div {
     height: 50px;
 }
 
-.valorinscribirse  button {
+.valorinscribirse button {
     border-radius: 10%;
-    background-color:#20f319;
+    background-color: #20f319;
     color: black;
     margin: auto;
     margin-bottom: 50px;
@@ -1120,16 +1151,18 @@ footer div {
 .valorinscribirse input:hover {
     color: #f10e92;
 }
+
 .valorinscribirse button:hover {
     color: #f10e92;
 }
+
 .resposive {
     padding: 10px;
     margin-bottom: 20px;
     width: 20%;
     border-radius: 10px;
 }
-    
+
 #slider {
     margin: auto;
 }
@@ -1138,7 +1171,7 @@ footer div {
     margin: auto;
 }
 
-.contenedor-calendario{
+.contenedor-calendario {
     width: 90%;
     margin: 1em auto;
     background-color: #000000;
@@ -1146,8 +1179,9 @@ footer div {
 }
 
 
+
 /*celular*/
-@media only screen and (min-width:0em)and (max-width:48em) {
+@media only screen and (min-width:0em)and (max-width:47em) {
     .pasos {
         flex-wrap: wrap;
     }
@@ -1190,15 +1224,6 @@ footer div {
 
     header p {
         right: 0px;
-    }
-
-    .personalizar {
-        flex-wrap: wrap;
-        margin: auto 30px;
-    }
-
-    .personalizar h2 {
-        width: 340px;
     }
 
     .detalleCurso {
@@ -1276,10 +1301,6 @@ footer div {
         color: white;
     }
 
-    .menu ul {
-        flex-direction: column;
-    }
-
     .id {
         background-color: #d8b944;
         font-family: 'Roboto Condensed', sans-serif;
@@ -1292,8 +1313,16 @@ footer div {
         width: 65px;
     }
 
-    .menu a {
-        display: inline-block;
+    .menu {
+        display: none;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .boton:hover {
+        transform: scale(1) translate3d(0, 0px, 0px);
     }
 
     #slider {
@@ -1316,11 +1345,47 @@ footer div {
         height: 50px;
     }
 
+    /*GIFTCARD*/
+    .personalizar {
+        flex-wrap: wrap;
+        margin: auto 30px;
+    }
 
+    .imagenGif img {
+        max-width: 100%;
+    }
+
+    .personalizar h2 {
+        width: 20px;
+    }
+
+    .destinatario {
+        width: 150px;
+    }
+
+    .imagenubi {
+        width: 260px;
+    }
 }
 
 /*TABLETS*/
-@media screen and (min-width:48em) {}
+@media screen and (min-width:48em)and (max-width:63em) {
+    .desplegable {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
 
 /*ESCRITORIO*/
-@media screen and (min-width:64em) {}
+@media screen and (min-width:64em) {
+    .desplegable {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}

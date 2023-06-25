@@ -5,8 +5,7 @@ let tercero = document.querySelector("#tercero");
 let items = document.querySelector(".items");
 let items2 = document.querySelector(".items2");
 let items3 = document.querySelector(".items3");
-let btninscripcion=documente.querySelector(".botonInscripcion");
-let contadorinscripcion=0;
+
 
 if (acordeon != null) {
     acordeon.addEventListener("click", () => {
@@ -23,6 +22,3 @@ if (tercero != null) {
         items3.classList.toggle("ver");
     });
 }
-btninscripcion.addEventListener("click",()=>{
-    contadorinscripcion++;
-})

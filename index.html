@@ -10,37 +10,29 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <body>
     <header id="arriba">
         <a href="index.html"> <img class="logo" src="img/logo progg.png" alt="Logo"></a>
         <input class="buscador" type="text" name="cod" id="buscador" list="info" placeholder="  Inicia una Busqueda">
         <img class="carrito" src="img/carrito.png" alt="carrito">
-        <p class="contadorcarrito"></p>
-        
-
-            <i class="fa-solid fa-bars" style="color: #000000;"></i>
-        </label>
-        
+        <p>1</p>
     </header>
 
     <nav class="menu">
-
-        <ul>  
-            <li class="boton"><a href="calendario.html"><i class="fi fi-rr-calendar-days"></i> Calendario</a></li>
-            <li class="boton"><a href="GifCard.html"><i class="fi fi-rr-receipt"></i> GifCard</a></li>
+        <ul class="hamburguesa">
             <li class="boton"><a href="inscripcionCurso.html"><i class="fi fi-sr-attribution-pencil"></i> Inscripcion al
                     Curso</a></li>
+            <li class="boton"><a href="GifCard.html"><i class="fi fi-rr-receipt"></i> GifCard</a></li>
+            <li class="boton"><a href="calendario.html"><i class="fi fi-rr-calendar-days"></i> Calendario</a></li>
             <li class="boton"><a href="contacto.html"><i class="fi fi-rr-phone-call"></i> Contacto</a></li>
         </ul>
     </nav>
+    <a class="desplegable"></i></a>
 
     <main>
-        <div id="resultado">
-
-        </div>
-        <!--  <h1 class ="titulo">Cursos Online</h1>-->
         <section id="slider">
             <article class="autoplay">
                 <img src="./img/javaSlider.png" alt="">
@@ -88,7 +80,7 @@
                 <ul>
                     <li><a href="detalleCurso.html">Ver detalle</a></li>
                     <h3>42 HS</h3>
-                    <input type="button" value="Comprar" id="hola" class="Comprar">
+                    <input type="button" value="Comprar" class="Comprar">
                     <h5>$90.000</h5>
                 </ul>
             </div>
@@ -98,7 +90,7 @@
                 <ul>
                     <li><a href="detalleCurso.html">Ver detalle</a></li>
                     <h3>35 HS</h3>
-                    <input type="button" value="Comprar" id="hola" class="Comprar">
+                    <input type="button" value="Comprar" class="Comprar">
                     <h5>$90.000</h5>
                 </ul>
             </div>
@@ -108,7 +100,7 @@
                 <ul>
                     <li><a href="detalleCurso.html">Ver detalle</a></li>
                     <h3>27 HS</h3>
-                    <input type="button" value="Comprar" id="hola" class="Comprar">
+                    <input type="button" value="Comprar" class="Comprar">
                     <h5>$90.000</h5>
                 </ul>
             </div>
@@ -118,7 +110,7 @@
                 <ul>
                     <li><a href="detalleCurso.html">Ver detalle</a></li>
                     <h3>35 hs</h3>
-                    <input type="button" value="Comprar" id="hola" class="Comprar">
+                    <input type="button" value="Comprar" class="Comprar">
                     <h5>$90.000</h5>
                 </ul>
             </div>
@@ -128,7 +120,7 @@
                 <ul>
                     <li><a href="detalleCurso.html">Ver detalle</a></li>
                     <h3>29 HS </h3>
-                    <input type="button" value="Comprar" id="hola" class="Comprar">
+                    <input type="button" value="Comprar" class="Comprar">
                     <h5>$90.000</h5>
                 </ul>
             </div>
@@ -206,7 +198,7 @@
 
     </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="js/vinculoJS.js"></script>
+    <script src="js/home.js"></script> /*Agregar a todas las paginas*/
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript">
         $('.autoplay').slick({
@@ -217,7 +209,6 @@
             autoplay: true,
             autoplaySpeed: 2000,
         });
-
     </script>
 </body>
 
