@@ -1,6 +1,6 @@
 let acordeon = document.querySelector(".acordeon");
 let segundo = document.querySelector("#segundo");
-let tercero = document.querySelector("#tercero");   
+let tercero = document.querySelector("#tercero");
 
 let items = document.querySelector(".items");
 let items2 = document.querySelector(".items2");
@@ -20,5 +20,21 @@ if (segundo != null) {
 if (tercero != null) {
     tercero.addEventListener("click", () => {
         items3.classList.toggle("ver");
+    });
+}
+
+let inscribirse = document.querySelector(".botonInscripcion");
+let aceptar = document.querySelector("#aceptar");
+let popup = document.querySelector(".popup");
+
+inscribirse.addEventListener("click", () => {
+    mostrarPopup();
+});
+
+function mostrarPopup() {
+    popup.classList.remove("verPopup");
+
+    aceptar.addEventListener("click", () => {
+        popup.classList.add("popup", "verPopup");
     });
 }
