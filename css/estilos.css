@@ -84,6 +84,7 @@ header p {
     width: 50%;
     height: 50px;
     border-style: solid;
+    box-shadow: -1px 23px 26px 2px rgba(0, 0, 0, 0.68);
 }
 
 .menu {
