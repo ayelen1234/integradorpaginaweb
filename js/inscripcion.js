@@ -23,6 +23,8 @@ let nodobotton=document.createElement("button");
 let textobotton=document.createTextNode("Eliminar");
 
 nodobotton.appendChild(textobotton);
+
+
 nodobotton.classList.add("#eliminar");
 
 nuevoDiv.classList.add("formularioinscripcion");
