@@ -5,11 +5,11 @@ let valorInscripcion=document.querySelector(".valorinscribirse h4");
 let valorCusoFijo=20;
 let  acumulador=0;
 let inscribirse=document.querySelector(".inscribiseBoton");
-let popup = document.querySelector(".popup");
+let popup = document.querySelector(".popupInscripcion");
 
 
 agregar.addEventListener("click",e =>{
-    montoImporteSuma();
+    montoImporteSuma(); 
     //creo nuevo div con nuevos input 
 let nuevoDiv=document.createElement("div");
 let nodoNombreApellido=document.createElement("input");
@@ -17,14 +17,17 @@ let nodoDni=document.createElement("input");
 let nodoMail=document.createElement("input");
 let nodoTelefono=document.createElement("input");
 let nodoImporte=document.createElement("input");
-let nodobotton=document.createElement("button");
+let nodobotton=document.createElement("button");  
+
 
 let textobotton=document.createTextNode("Eliminar");
+
 nodobotton.appendChild(textobotton);
-nodobotton.classList.add("eliminar");
+nodobotton.classList.add("#eliminar");
 
 nuevoDiv.classList.add("formularioinscripcion");
 
+nuevoDiv.classList.add("formularioinscripcioninput");
 //hago hijos
 nuevoDiv.appendChild(nodoNombreApellido);
 nuevoDiv.appendChild(nodoDni);
@@ -34,6 +37,7 @@ nuevoDiv.appendChild(nodoImporte);
 nuevoDiv.appendChild(nodobotton);
 
 contenedor.appendChild(nuevoDiv);
+contenedor.classList.add("formularioinscripciondivnuevo");
 
 //remuevo el div creado
     nodobotton.addEventListener("click",e =>{
@@ -60,20 +64,23 @@ function montoImporteResta(){
     acumulador+= -20;
   valorInscripcion.innerHTML=acumulador;
 }
-
-
-
-
-
 });
 
 
 
 inscribirse.addEventListener("click", ()=>{
+  let nuevoDivIntegrantes=document.createElement("div");
+  nuevoDivIntegrantes.appendChild(contenedor);
+  nuevoDivIntegrantes.classList.add("formularioinscripcioninput");
+  popup.appendChild(nuevoDivIntegrantes);
+ 
+  
 
-    popup.classList.remove("verPopup");
-    popup.classList.add("popup");
+  popup.classList.remove("verPopup","popup");
+  popup.classList.add("popup");
+    
+
 }  
 
-)
+);
 

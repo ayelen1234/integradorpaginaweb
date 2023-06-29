@@ -26,9 +26,10 @@ if (tercero != null) {
 let inscribirse = document.querySelector(".botonInscripcion");
 let aceptar = document.querySelector("#aceptar");
 let popup = document.querySelector(".popup");
-
+let carrito=document.querySelector("#session");
 inscribirse.addEventListener("click", () => {
     mostrarPopup();
+ 
 });
 
 function mostrarPopup() {

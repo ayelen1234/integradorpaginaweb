@@ -16,7 +16,7 @@
         <a href="index.html"> <img class="logo" src="img/logo progg.png" alt="Logo"></a>
         <input class="buscador" type="text" name="cod" id="buscador" list="info" placeholder="  Inicia una Busqueda">
         <img class="carrito" src="img/carrito.png" alt="carrito">
-        <p>1</p>
+        <p></p>
     </header>
 
     <nav class="menu">
@@ -29,13 +29,13 @@
         </ul>
     </nav>
     <a class="desplegable"></i></a>
-
+    <body>
     <main>
         <section class="personalizar">
             <article class="imagenGif">
-                <p>$0000.-</p>
+                <p class="imagenGif-p"  id ="precio">$0000.-</p>
           
-                <h3>Vista previa de resultado </h3>
+                <h3 class="imagenGif-h3" id="vista">Vista previa de resultado </h3>
             </article>
 
             <article class="opciones">
@@ -43,11 +43,10 @@
 
                 <label for="destinatario"></label>
                 <input class="destinatario" type="text" name="destinatario" id="destinatario"
-                    placeholder=" Nombre Destinatario">
+                    placeholder="  Nombre Destinatario">
              
                 <h3>Color</h3>
-                <label for="color"></label>
-                <ul class="colores">
+               <ul class="colores">
                     <li>
                         <p class="rojoFondo">r </p>
                         <input type="radio" name="color" id="color" value="rojo">
@@ -74,38 +73,23 @@
                 </ul>
                 <h3>Tamaño </h3>
                 <label for="tamanio"></label>
-                <ul class ="letras">
-                    
-                    <li>
-                        <p class="letra20">20px</p>
-                        <input type="radio" name="tamanio" id="tamanio">
-                        
-                    </li>
+             <ul class ="tamanios">
+                     
+                    <input class="tamanio1" type="radio" value="1" name="tamanio">20px
 
-                    <li>
-                        <p class="letra20">28px</p>
-                        <input type="radio" name="tamanio" id="tamanio">
-                    </li>
+                     <input class="tamanio2" type="radio" value="2" name="tamanio">28px
 
-                    <li>
-                        <p class="letra20">32px</p>
-                        <input type="radio" name="tamanio" id="tamanio">
-                    </li>
+                    <input class="tamanio3" type="radio" value="3" name="tamanio">32px 
 
-                    <li>
-                        <p class="letra20">48px</p>
-                        <input type="radio" name="tamanio" id="tamanio">
-                    </li>
+                    <input class="tamanio4" type="radio" value="4" name="tamanio">48px 
 
-                    <li>
-                        <p class="letra20">60px</p>
-                        <input type="radio" name="tamanio" id="tamanio">
-                    </li>
+                     <input class="tamanio5" type="radio" value="5" name="tamanio">60px
+                 
                 </ul>
 
 
                 <h3></h3>
-                <label for="monto">Monto $ </label>
+                <label  for="monto"><strong>Monto $ </strong> </label>
                 <input type="text" name="monto" id="monto">
 
                 <h3>Ubicacion</h3>
@@ -116,19 +100,19 @@
                     <li class="abajoDerecha">
                         <img src="img/gfixi-giftcard.png" alt="git">
                         <P class="PabajoIDerecha">$0</P>
-                        <input type="radio" name="ubicacion" id="ubicacion" value="1">
+                        <input  class="imagenGifAbajop" type="radio" id="1" name="ubicacion" >
                     </li>
 
                     <li class="arribaIzquierda">
                         <img src="img/gfixi-giftcard.png" alt="git">
                         <P class="ParribaIzquierda">$0</P>
-                        <input type="radio" name="ubicacion" id="ubicacion"  value="2">
+                        <input class="imagenGifDerechap" type="radio" id ="2" name="ubicacion" >
                     </li>
 
                     <li class="arribaDerecha">
                         <img src="img/gfixi-giftcard.png" alt="git">
                         <P class="ParribaDerecha">$0</P>
-                        <input type="radio" name="ubicacion" id="ubicacion"  value="3">
+                        <input class="imagenGifpp" type="radio" id ="3" name="ubicacion" >
                     </li>
 
                 </ul>
@@ -176,7 +160,11 @@
         </section>
         <a class="irArriba" href="#arriba">Inicio</a>
     </main>
-    <script src="js/gifcard.js"></script>
+   
+  
+        
+   
+    
     <footer class="footerContenedor">
         <div class="persona">
             <h6>Datos del Grupo</h6>
@@ -226,6 +214,7 @@
         </div>
 
     </footer>
+    <script src="js/gifcard.js"></script>
 </body>
 
 </html>

@@ -15,7 +15,7 @@
         <a href="index.html"> <img class="logo" src="img/logo progg.png" alt="Logo"></a>
         <input class="buscador" type="text" name="cod" id="buscador" list="info" placeholder="  Inicia una Busqueda">
         <img class="carrito" src="img/carrito.png" alt="carrito">
-        <p>1</p>
+        <p id="session"></p>
     </header>
 
     <nav class="menu">
@@ -39,13 +39,13 @@
                 <div class="contenedordeinput">
                 <form class="formularioinscripcion" id = "form" action="#" method="get">
 
-                <input type="text"  id="Nombre"  name="Nombre"  placeholder="Ingrese su nombre y apellido" >
+                <input type="text"  id="Nombre"  name="Nombre"  placeholder="Ingrese nombre /apellido" >
 
-                 <input type="tel"  id="dni"  name="dni"  placeholder="Ingrese su dni ">
+                 <input type="tel"  id="dni"  name="dni"  placeholder="Ingrese  dni ">
 
-                <input type="email" id="correo"  name="correo"   placeholder="Ingrese su email" >
+                <input type="email" id="correo"  name="correo"   placeholder="Ingrese  email" >
 
-                 <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su numero de telefono">
+                 <input type="tel" id="telefono" name="telefono" placeholder="Ingrese  telefono">
 
                  <input class="importe" type="importe" id="importe" name="importe" value = "usd 20"  placeholder="USD 20">
 
@@ -59,12 +59,13 @@
 
                     <div class="valorinscribirse">
                         <h4>20</h4>
-                        <button id="agregar">AGREGAR</button>
+                        <button id="agregar">AGREGAR PERSONA</button>
                       
                          <input  class="inscribiseBoton" type="submit" value="INSCRIBIRSE">
 
-                         <article class="verPopup popup"> 
+                         <article class="verPopup popupInscripcion"> 
                             <h2>Se inscriben las siguientes personas</h2>
+
                             <a href="index.html" id="aceptar">Aceptar</a>
                         </article>
                     </div>

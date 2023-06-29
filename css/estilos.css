@@ -25,6 +25,7 @@ body {
     background-image: url(../img/compu-fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 1em;
 }
 
 main {
@@ -620,6 +621,18 @@ footer div {
     left: 390px;
     border-radius: 10px;
 }
+.popupInscripcion {
+    background-color: black;
+    width: 813px;
+    height: 545px;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+    top: 52px;
+    left: 262px;
+    border-radius: 10px;
+    padding: 5px;
+}
 
 .popup h2 {
     color: #d8b944;
@@ -728,8 +741,9 @@ footer div {
     width: calc(50%-2em);
 }
 
-.imagenGif {
-    position: relative;
+#destinatario{
+    border-radius: 30px;
+    height: 30px;
 }
 
 .imagenGif {
@@ -789,8 +803,8 @@ footer div {
 .imagenGif5 {
 
     position: relative;
-    width: 500px;
-
+    width: 600%;
+    
     background-image: url(../img/gitroko.webp);
     display: flex;
     align-items: center;
@@ -798,39 +812,33 @@ footer div {
     background-repeat: no-repeat;
 }
 
-.imagenGif p {
+.imagenGif-p {
     position: absolute;
-
     right: 20px;
     top: 50px;
     background-color: #000000;
     color: white;
-    border-radius: 10px;
-    padding: 3px;
+     padding: 3px;
 }
-
-.imagenGifAbajo p {
-    position: absolute;
+.imagenGifpp {
+   
     right: 20px;
-    top: 200px;
-    background-color: #000000;
-    color: white;
-    border-radius: 10px;
-    padding: 3px;
-}
-
-.imagenGifDerecha p {
-    position: absolute;
-
-    left: 20px;
     top: 50px;
-    background-color: #000000;
-    color: white;
-    border-radius: 10px;
-    padding: 3px;
+   
+}
+.imagenGifAbajop {  
+    right: 20px;
+    top: 100px;
 }
 
-.imagenGif h3 {
+.imagenGifDerechap {
+  
+    left: 27px;
+    top: 50px;  
+   
+}
+
+.imagenGif-h3 {
     position: absolute;
     top: 200px;
     right: 15px;
@@ -982,35 +990,41 @@ footer div {
     color: #20f319;
 }
 
+.tamanios{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
-.letra20 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1em;
+#monto{
+   border-radius: 40px;
+   height: 40px;
 }
 
 .tamanio1 {
-
-    font-size: 2em;
+ 
+    font-size: 1.5em;
 }
+
 
 
 .tamanio2 {
-
-    font-size: 3em;
+   
+    font-size: 1.6em;
 }
 
 .tamanio3 {
-
-    font-size: 4em;
+ 
+    font-size: 1.8em;
 }
 
 .tamanio4 {
 
-    font-size: 5em;
+
+    font-size: 1.9em;
 }
 
 .tamanio5 {
-    font-size: 6em;
+  
+    font-size: 2.1em;
 }
 
 
@@ -1102,8 +1116,22 @@ footer div {
 
 
 .inscrpcionjava h1 {
+ 
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 45px;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 22px;
+     display: inline;
+    padding: 9px;
+  
+}
+.inscrpcionjava h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 
@@ -1118,12 +1146,30 @@ footer div {
     height: 4em;
     width: 16em;
 }
+.formularioinscripcion input{
+    border-radius: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: #000000;
+    color: #ffffff;
+}
 
-
-
-.eliminar {
+#eliminar button{
     background-color: #fc0c0c;
+}
 
+#eliminar {
+    background-color: #fc0c0c;
+    border-radius: 7px;
+    height: 66px;
+    margin-right: 5px;
+    
+
+}
+
+#eliminar .id:hover{
+color: #f10e92;
 }
 
 .importe {
@@ -1134,19 +1180,19 @@ footer div {
 
 .valorinscribirse {
     display: flex;
-    flex-wrap: nowrap;
+  
+    flex-direction: row;
 }
 
 .valorinscribirse h4 {
-    margin-top: 40px;
     background-color: #000000;
     color: #ffffff;
     display: block;
     border-radius: 5px;
-    width: 4em;
-    margin-bottom: 10px;
-    padding: 1em;
-    height: 2em;
+    width: -1em;
+    padding: 2em;
+    height: 4em;
+    border-radius: 196px 11px 200px 0px;
 }
 
 .valorinscribirse input {
@@ -1161,7 +1207,7 @@ footer div {
 }
 
 .valorinscribirse button {
-    border-radius: 10%;
+    border-radius: 7%;
     background-color: #20f319;
     color: black;
     margin: auto;

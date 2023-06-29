@@ -1,17 +1,19 @@
 let nombreDestinatario=document.querySelector("#destinatario");
-let vistaPrevia=document.querySelector(".imagenGif h3");
+let vistaPrevia=document.querySelector("#vista");
 let vistaPreviaImagen=document.querySelector(".imagenGif img");
 
 nombreDestinatario.addEventListener("keyup",()=>{
     vistaPrevia.innerHTML=nombreDestinatario.value;
 })
 
+
 let monto=document.querySelector("#monto");
-let vistaPreviaMonto=document.querySelector(".imagenGif p");
+let vistaPreviaMonto=document.querySelector("#precio");
 
 monto.addEventListener("keyup",()=>{
     vistaPreviaMonto.innerHTML="$" + monto.value;
 })
+
 
 let colores=document.getElementsByName("color");
 colores.forEach(item =>{
@@ -19,13 +21,12 @@ colores.forEach(item =>{
         vistaPrevia.classList.remove("rojo","amarillo","verde","violeta","blanco");
         vistaPrevia.classList.add( item.value);
 })
-
-
 })
 
 let coloresFondo=document.getElementsByName("fondo");
 let fondoclase=document.querySelector(".imagenGif");
 coloresFondo.forEach(item=>{
+  
     item.addEventListener("click",()=>{
         fondoclase.classList.remove("imagenGif1","imagenGif2","imagenGif3","imagenGif4","imagenGif5");
         fondoclase.classList.add("imagenGif"+item.value);
@@ -33,23 +34,25 @@ coloresFondo.forEach(item=>{
     })
 })
 
-let letras=document.getElementsByName("tamanio");
- vistaPrevia=document.querySelector(".imagenGif h3");
-letras.forEach(item=>{
+let tamanios=document.getElementsByName("tamanio");
+tamanios.forEach(item=>{
+   
     item.addEventListener("click", () =>{
-        vistaPrevia.classList.remove("tamanio1");
-        vistaPrevia.classList.add("tamanio1","tamanio2","tamanio3","tamanio4","tamanio5");
+        vistaPrevia.classList.remove("tamanio1","tamanio2","tamanio3","tamanio4","tamanio5");
+        vistaPrevia.classList.add (`tamanio${item.value}`);
+        
     })
 })
 
-let ubicacion=docment.getElementsByName("ubicacion");
+let ubicaciones=document.getElementsByName("ubicacion");
 
-ubicacion.forEach(item=>{
+ubicaciones.forEach(item=>{
     item.addEventListener("click", ()=>{
-        vistaPreviaMonto.classList.remove( "imagenGifAbajo p","imagenGifDerecha p"  );
-        vistaPreviaMonto.classList.add( "imagenGif p" , "imagenGifAbajo p","imagenGifDerecha p" );
-    })
+        vistaPreviaMonto.classList.remove("imagenGifDerechap" ,"imagenGifAbajop" + "imagenGifpp");
+        vistaPreviaMonto.classList.add(`ubicacion${item.value}`);
 
+        
+    })
 
 
 
