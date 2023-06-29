@@ -1,3 +1,8 @@
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     var calendarEl = document.getElementById('calendario');
 
@@ -20,4 +25,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }); 
 
     calendar.render();
+
+    let carrito=document.querySelector("#session");
+sesionmostrar=sessionStorage.getItem("cantidad");
+carrito.innerHTML=sesionmostrar;
   });
+

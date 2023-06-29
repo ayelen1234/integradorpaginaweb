@@ -86,3 +86,7 @@ inscribirse.addEventListener("click", ()=>{
 
 );
 
+let carrito=document.querySelector("#session");
+sesionmostrar=sessionStorage.getItem("cantidad");
+carrito.innerHTML=sesionmostrar;
+

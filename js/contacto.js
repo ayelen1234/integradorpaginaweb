@@ -91,3 +91,6 @@ function enviarFormulario(datos) {
     fetch("#", { method: "POST", body: JSON.stringify(datos), headers: { "Content-type": "application/json; charset=UTF-8" } });
     console.log("se envio");
 }
+let carrito=document.querySelector("#session");
+sesionmostrar=sessionStorage.getItem("cantidad");
+carrito.innerHTML=sesionmostrar;

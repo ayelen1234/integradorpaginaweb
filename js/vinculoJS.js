@@ -68,6 +68,10 @@ consulta.addEventListener("keyup", () => {
     mensaje.innerHTML = "Escribio" + consulta.length + "caracteres";
 });
 
+let carrito=document.querySelector("#session");
+sesionmostrar=sessionStorage.getItem("cantidad");
+carrito.innerHTML=sesionmostrar;
+
 
 
 

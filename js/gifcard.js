@@ -57,3 +57,6 @@ ubicaciones.forEach(item=>{
 
 
 })
+let carrito=document.querySelector("#session");
+sesionmostrar=sessionStorage.getItem("cantidad");
+carrito.innerHTML=sesionmostrar;

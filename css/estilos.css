@@ -72,7 +72,7 @@ header p {
 
 
 .carrito {
-    width: 40px;
+    width: 5%;
     margin: auto;
     position: relative;
 }
@@ -1114,6 +1114,14 @@ footer div {
 
 }
 
+#session{
+    background-color: #f10e92;
+    width: 29px;
+    height: 34px;
+    color: black;
+    text-align: center;
+    right: 187px;
+}
 
 .inscrpcionjava h1 {
  
