@@ -48,8 +48,8 @@ let ubicaciones=document.getElementsByName("ubicacion");
 
 ubicaciones.forEach(item=>{
     item.addEventListener("click", ()=>{
-        vistaPreviaMonto.classList.remove("imagenGifDerechap" ,"imagenGifAbajop" + "imagenGifpp");
-        vistaPreviaMonto.classList.add(`ubicacion${item.value}`);
+        vistaPreviaMonto.classList.remove("imagenGif-p","imagenGifDerechap" ,"imagenGifAbajop" + "imagenGifpp");
+        vistaPreviaMonto.classList.add(item.value);
 
         
     })

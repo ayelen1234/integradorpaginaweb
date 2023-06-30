@@ -758,7 +758,7 @@ footer div {
 
 .imagenGif1 {
     position: relative;
-    width: 500px;
+    width: 500%;
     display: flex;
     align-items: center;
     background-image: url(../img/gifcardnegra.webp);
@@ -770,7 +770,7 @@ footer div {
 
 .imagenGif2 {
     position: relative;
-    width: 500px;
+    width: 500%;
     display: flex;
     align-items: center;
     background-image: url(../img/gifcard3.pngaltmediatoken1c024701-0fb0-4f65-b8e7-b6468e946c27);
@@ -780,7 +780,7 @@ footer div {
 
 .imagenGif3 {
     position: relative;
-    width: 500px;
+    width: 500%;
     display: flex;
     align-items: center;
     background-image: url(../img/gifcard4.png);
@@ -792,7 +792,7 @@ footer div {
 .imagenGif4 {
 
     position: relative;
-    width: 500px;
+    width: 500%;
     background-image: url(../img/gfixi-giftcard.png);
     display: flex;
     align-items: center;
@@ -803,7 +803,7 @@ footer div {
 .imagenGif5 {
 
     position: relative;
-    width: 600%;
+    width: 500%;
     
     background-image: url(../img/gitroko.webp);
     display: flex;
@@ -822,20 +822,31 @@ footer div {
 }
 .imagenGifpp {
    
+    position: absolute;
     right: 20px;
-    top: 50px;
+    top: 177px;
+    background-color: #000000;
+    color: white;
+     padding: 3px;
    
 }
 .imagenGifAbajop {  
     right: 20px;
-    top: 100px;
+    top: 49px;
+    position: absolute;
+     
+    background-color: #000000;
+    color: white;
+     padding: 3px;
 }
 
 .imagenGifDerechap {
-  
-    left: 27px;
-    top: 50px;  
-   
+    position: absolute;
+    right: 257px;
+    top: 39px;
+    background-color: #000000;
+    color: white;
+    padding: 1px;
 }
 
 .imagenGif-h3 {
@@ -1429,7 +1440,7 @@ color: #f10e92;
     }
 
     .imagenGif img {
-        max-width: 100%;
+        max-width: 300%;
     }
 
     .personalizar h2 {
